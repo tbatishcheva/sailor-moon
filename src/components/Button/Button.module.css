@@ -1,0 +1,41 @@
+.button {
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: thin solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+@media (hover: hover) {
+    .button:hover {
+        filter: contrast(200%);
+    }
+}
+
+.neutral {
+    background-color: #282c34;
+    color: antiquewhite;
+}
+
+.red {
+    background-color: indianred;
+    color: antiquewhite;
+}
+
+.green {
+    background-color: seagreen;
+    color: black;
+}
+
+.xsmall {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.small {
+    font-size: 16px;
+    padding: 8px 16px;
+}
